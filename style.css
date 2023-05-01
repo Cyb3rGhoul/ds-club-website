@@ -578,7 +578,7 @@ header .fa-times {
     }
 
     .about .row .image img {
-        height: 60vh;
+        height: 50vh;
         width: 90vh;
     }
 
@@ -588,6 +588,10 @@ header .fa-times {
 
     .events .box-container {
         width: 100%;
+    }
+    .events .box-container .box
+    {
+        width: 80%;
     }
 
     .contact .row{
@@ -604,5 +608,20 @@ header .fa-times {
     {
         width: 90%;
         padding: 0;
+    }
+
+    .home .box-container .box
+    {
+        width: 66%;
+    }
+
+    .members .card-container .card img{
+    height: 27rem;
+    width: 90%;
+    }
+    .header-active
+    {
+        width: 78%;
+        left: 39%;
     }
 }
