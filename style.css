@@ -18,8 +18,8 @@
 }
 
 .logo1 {
-    width: 175px;
-    height: 50px;
+    width: 15rem;
+    height: 5rem;
     padding: 0;
     margin-bottom: -5px;
 }
@@ -522,6 +522,11 @@ header .fa-times {
 @media (max-width:786px) {
     html {
         font-size: 55%;
+    }
+
+    header{
+    width: 64%;
+    left: 34%;
     }
 
     header .fa-bars {
